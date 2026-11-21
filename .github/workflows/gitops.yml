@@ -37,7 +37,7 @@ jobs:
     name: Terraform Apply
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
-    environment: production
+    environment: production1
 
     steps:
       - name: Checkout
