@@ -6,7 +6,7 @@ resource "terraform_data" "project18" {
   input = {
     project = "Sreekanth Project 18"
     status  = "Infrastructure deployed successfully"
-    version = "1.0"
+    version = "2.0"
   }
 }
 
